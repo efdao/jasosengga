@@ -39,3 +39,36 @@
 4. 브라우저에서 `http://localhost:8000`로 접속하여 확인
 
 ## 프로젝트 구조
+teamproject/
+├── .env                    # 환경 변수 파일
+├── db.sqlite3              # SQLite 데이터베이스 파일
+├── manage.py               # Django 관리 스크립트
+├── myapp/                  # 'myapp' Django 앱 폴더
+│   ├── __init__.py         # 앱 초기화 파일
+│   ├── admin.py            # 관리자 페이지 설정
+│   ├── apps.py             # 앱 설정 파일
+│   ├── forms.py            # Django 폼 정의
+│   ├── models.py           # 데이터베이스 모델 정의
+│   ├── routers.py          # API 라우터 정의 (RESTful API 사용 시)
+│   ├── tests.py            # 테스트 코드
+│   ├── urls.py             # 앱 내 URL 경로 설정
+│   ├── views.py            # 뷰 로직 정의
+│   ├── migrations/         # 데이터베이스 마이그레이션 파일들
+│   ├── static/             # 정적 파일들 (CSS, JS, 이미지 등)
+│   │   ├── css/            # 스타일시트
+│   │   ├── fonts/          # 폰트 파일
+│   │   ├── user.png        # 사용자 프로필 이미지
+│   ├── templates/          # HTML 템플릿 파일들
+│       ├── myapp/
+│           ├── chat.html
+│           ├── company_analysis.html
+│           ├── home.html
+│           ├── login.html
+│           ├── resume_form.html
+│           ├── signup.html
+├── teamproject/            # Django 프로젝트 폴더
+│   ├── __init__.py         # 프로젝트 초기화 파일
+│   ├── asgi.py             # 비동기 서버 설정
+│   ├── settings.py         # Django 설정 파일
+│   ├── urls.py             # 프로젝트 URL 경로 설정
+│   ├── wsgi.py             # WSGI 서버 설정
