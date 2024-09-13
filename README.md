@@ -59,13 +59,12 @@ teamproject/
 │   │   ├── fonts/          # 폰트 파일
 │   │   ├── user.png        # 사용자 프로필 이미지
 │   ├── templates/          # HTML 템플릿 파일들
-│       ├── myapp/
-│           ├── chat.html
-│           ├── company_analysis.html
-│           ├── home.html
-│           ├── login.html
-│           ├── resume_form.html
-│           ├── signup.html
+│       ├── chat.html
+│       ├── company_analysis.html
+│       ├── home.html
+│       ├── login.html
+│       ├── resume_form.html
+│       ├── signup.html
 ├── teamproject/            # Django 프로젝트 폴더
 │   ├── __init__.py         # 프로젝트 초기화 파일
 │   ├── asgi.py             # 비동기 서버 설정
